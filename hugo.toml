@@ -1,0 +1,4 @@
+baseURL = 'https://stuartabramshumphries.com/'
+languageCode = 'en-uk'
+title = 'Stuart Abrams-Humphries'
+theme = 'ananke'
