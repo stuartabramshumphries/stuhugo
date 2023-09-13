@@ -1,3 +1,10 @@
++++
+title = "About"
+description = "qbout stu
+date = "2019-02-28"
+aliases = ["about-us", "about-me", "contact"]
+author = "Stuart Abrams-Humphries"
++++
 Senior Linux Engineer. Over 20 years’ experience in a wide variety of environments from small trading firms with fewer than 100 servers to large banks with tens of thousands of servers.
 
 Experience in designing, implementing, and maintaining Linux-based systems. Proven ability to troubleshoot complex problems and deliver high-quality solutions.
