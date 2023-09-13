@@ -1,6 +1,6 @@
 +++
 title = "About"
-description = "qbout stu
+description = "about stu"
 date = "2019-02-28"
 aliases = ["about-us", "about-me", "contact"]
 author = "Stuart Abrams-Humphries"
