@@ -1,5 +1,5 @@
 ---
-title: "Gitremote"
+title: "How to change remote in git"
 date: 2023-10-02T19:57:15+01:00
 Description: ""
 Tags: []

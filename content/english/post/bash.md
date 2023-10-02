@@ -1,5 +1,5 @@
 ---
-title: "Bash"
+title: "Bash best practices"
 date: 2023-10-02T19:55:32+01:00
 Description: ""
 Tags: []
