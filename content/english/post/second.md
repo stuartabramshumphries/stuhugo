@@ -1,5 +1,5 @@
 ---
-title: "Second"
+title: "How to redirect an apex domain in AWS"
 date: 2023-10-02T19:34:49+01:00
 draft: false
 ---
