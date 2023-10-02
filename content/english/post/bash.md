@@ -13,7 +13,7 @@ A few hints on bash best practice:
 
 * use #!/usr/bin/env bash .. this is more portable but you cant rely on a specific version
 * use set, dont use options to bash - if someone runs your script with bash scriptname then it will ignore the options to bash
-* use {} to enclose variables - can cause mistakes if you donr - e.g. variable name becomes VAR_ext rather than what you wanted
+* use {} to enclose variables - can cause mistakes if you dont - e.g. variable name becomes VAR_ext rather than what you wanted
 * to ensure you always have a value, set defaults - e.g. "${MYNAME}" = "Stuart" - MYNAME defaults to Stuart if not already set
 * use spaces for tabs, not tabs - tab not portable
 * max line length of 80 characters for readability - use \ to split of lines if needed
