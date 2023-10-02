@@ -1,10 +1,210 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Stuart Abrams-Humphries</title>
-    <link>https://www.stuartabramshumphries.com/</link>
-    <description>Recent content on Stuart Abrams-Humphries</description>
+    <title>My blog</title>
+    <link>https://stuartabramshumphries.com/</link>
+    <description>Recent content on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://www.stuartabramshumphries.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 12 Sep 2023 15:36:27 +0100</lastBuildDate><atom:link href="https://stuartabramshumphries.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Second</title>
+      <link>https://stuartabramshumphries.com/post/second/</link>
+      <pubDate>Tue, 12 Sep 2023 15:36:27 +0100</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/post/second/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>ZFS Intro on Linux</title>
+      <link>https://stuartabramshumphries.com/post/first/</link>
+      <pubDate>Wed, 30 Aug 2023 20:42:02 +0100</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/post/first/</guid>
+      
+        <description>January 13, 2022 Overview Developed in 2001 by Sun Microsystems - not GNU licensed so has to be installed on linux separately.</description>
+      
+    </item>
+    
+    <item>
+      <title>Awards</title>
+      <link>https://stuartabramshumphries.com/awards/</link>
+      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/awards/</guid>
+      
+        <description>Hugo Awards, an annual literary award for the best science fiction or fantasy works</description>
+      
+    </item>
+    
+    <item>
+      <title>Certifications</title>
+      <link>https://stuartabramshumphries.com/certifications/</link>
+      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/certifications/</guid>
+      
+        <description>Stuarts Certifications</description>
+      
+    </item>
+    
+    <item>
+      <title>The Notice Shortcode</title>
+      <link>https://stuartabramshumphries.com/post/notice-shortcode/</link>
+      <pubDate>Fri, 18 Mar 2022 21:47:41 +0000</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/post/notice-shortcode/</guid>
+      
+        <description>The notice shortcode supports three different types of disclaimers. These are as following:</description>
+      
+    </item>
+    
+    <item>
+      <title>Series Part 2</title>
+      <link>https://stuartabramshumphries.com/post/series-part-2/</link>
+      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/post/series-part-2/</guid>
+      
+        <description>A brief guide to how to setup series part 2</description>
+      
+    </item>
+    
+    <item>
+      <title>Series Part 1</title>
+      <link>https://stuartabramshumphries.com/post/series-part-1/</link>
+      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/post/series-part-1/</guid>
+      
+        <description>A brief guide to how to setup series part 1</description>
+      
+    </item>
+    
+    <item>
+      <title>Redirect</title>
+      <link>https://stuartabramshumphries.com/post/redirect/</link>
+      <pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/post/redirect/</guid>
+      
+        <description>Usage of redirectUrl</description>
+      
+    </item>
+    
+    <item>
+      <title>The Figure Shortcode</title>
+      <link>https://stuartabramshumphries.com/post/figure-shortcode/</link>
+      <pubDate>Sat, 13 Mar 2021 21:47:41 +0000</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/post/figure-shortcode/</guid>
+      
+        <description>Hugo has figure shortcode built-in, so you can easily add figure captions or hyperlink rel attributes to images.</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://stuartabramshumphries.com/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/archives/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://stuartabramshumphries.com/post/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/post/markdown-syntax/</guid>
+      
+        <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+      
+    </item>
+    
+    <item>
+      <title>Rich Content</title>
+      <link>https://stuartabramshumphries.com/post/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/post/rich-content/</guid>
+      
+        <description>A brief description of Hugo Shortcodes</description>
+      
+    </item>
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>https://stuartabramshumphries.com/post/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/post/placeholder-text/</guid>
+      
+        <description>Lorem Ipsum Dolor Si Amet</description>
+      
+    </item>
+    
+    <item>
+      <title>Math Typesetting</title>
+      <link>https://stuartabramshumphries.com/post/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/post/math-typesetting/</guid>
+      
+        <description>A brief guide to setup KaTeX</description>
+      
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>https://stuartabramshumphries.com/post/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/post/emoji-support/</guid>
+      
+        <description>Guide to emoji usage in Hugo</description>
+      
+    </item>
+    
+    <item>
+      <title>Guide to Thumbnails in Hugo</title>
+      <link>https://stuartabramshumphries.com/post/image-test/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/post/image-test/</guid>
+      
+        <description>Guide to Thumbnails in Hugo</description>
+      
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://stuartabramshumphries.com/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/about/</guid>
+      
+        <description>about stu</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://stuartabramshumphries.com/imprint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/imprint/</guid>
+      
+        <description>Legal Disclosure Information in accordance with the applicable law
+Jane Doe</description>
+      
+    </item>
+    
   </channel>
 </rss>
