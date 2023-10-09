@@ -1,6 +1,6 @@
 ---
 title: "Change Jenkins home dir"
-date: 2023-06-02T20:06:06+01:00
+date: 2023-06-09T20:06:06+01:00
 Description: ""
 Tags: []
 Categories: []

@@ -1,6 +1,6 @@
 ---
 title: "How to change remote in git"
-date: 2023-04-02T19:57:15+01:00
+date: 2023-04-05T19:57:15+01:00
 Description: ""
 Tags: []
 Categories: []

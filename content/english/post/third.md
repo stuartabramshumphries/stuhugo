@@ -1,6 +1,6 @@
 ---
 title: "How to grow a volume on an EC2 instance"
-date: 2023-07-02T19:50:32+01:00
+date: 2023-07-17T19:50:32+01:00
 Description: ""
 Tags: []
 Categories: []
