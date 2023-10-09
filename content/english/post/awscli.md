@@ -1,6 +1,6 @@
 ---
 title: "AWS cli quickstart"
-date: 2023-10-02T19:59:02+01:00
+date: 2023-01-02T19:59:02+01:00
 Description: ""
 Tags: []
 Categories: []
