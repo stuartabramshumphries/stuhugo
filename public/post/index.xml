@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My blog</title>
+    <link>https://stuartabramshumphries.com/post/</link>
+    <description>Recent content in Posts on My blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 02 Oct 2023 20:06:06 +0100</lastBuildDate><atom:link href="https://stuartabramshumphries.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Change Jenkins home dir</title>
+      <link>https://stuartabramshumphries.com/post/jenkinsdir/</link>
+      <pubDate>Mon, 02 Oct 2023 20:06:06 +0100</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/post/jenkinsdir/</guid>
+      
+        <description>Change Jenkins home directory in Ubuntu
+We needed recently to change home directory of Jenkins in Ubuntu.</description>
+      
+    </item>
+    
+    <item>
+      <title>AWS Load balancing comparisons</title>
+      <link>https://stuartabramshumphries.com/post/awslb/</link>
+      <pubDate>Mon, 02 Oct 2023 20:04:05 +0100</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/post/awslb/</guid>
+      
+        <description>AWS Elastic Load Balancing Solutions
+Overview Elastic Load Balancing - commonly referred to as ELB helps with disrtibuting traffic accross multiple EC2 instances in several availability zones, this helps with:</description>
+      
+    </item>
+    
+    <item>
+      <title>AWS cli quickstart</title>
+      <link>https://stuartabramshumphries.com/post/awscli/</link>
+      <pubDate>Mon, 02 Oct 2023 19:59:02 +0100</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/post/awscli/</guid>
+      
+        <description>AWS CLI Quickstart what is aws cli?
+essentially a command line python tool you can use to query/create/change state of all things in aws.</description>
+      
+    </item>
+    
+    <item>
+      <title>How to change remote in git</title>
+      <link>https://stuartabramshumphries.com/post/gitremote/</link>
+      <pubDate>Mon, 02 Oct 2023 19:57:15 +0100</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/post/gitremote/</guid>
+      
+        <description>generally remote is set by default to the place you originally cloned your repo from, however you may want to change this.</description>
+      
+    </item>
+    
+    <item>
+      <title>Bash best practices</title>
+      <link>https://stuartabramshumphries.com/post/bash/</link>
+      <pubDate>Mon, 02 Oct 2023 19:55:32 +0100</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/post/bash/</guid>
+      
+        <description>Bash best practices A few hints on bash best practice:</description>
+      
+    </item>
+    
+    <item>
+      <title>How to grow a volume on an EC2 instance</title>
+      <link>https://stuartabramshumphries.com/post/third/</link>
+      <pubDate>Mon, 02 Oct 2023 19:50:32 +0100</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/post/third/</guid>
+      
+        <description>How to grow a volume on aws ec2 instance
+so - space getting a little tight on box, cant archive or delete anything - lets grow it.</description>
+      
+    </item>
+    
+    <item>
+      <title>How to redirect an apex domain in AWS</title>
+      <link>https://stuartabramshumphries.com/post/second/</link>
+      <pubDate>Mon, 02 Oct 2023 19:34:49 +0100</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/post/second/</guid>
+      
+        <description>How to redirect an apex domain in AWS
+June 21, 2021 Overview</description>
+      
+    </item>
+    
+    <item>
+      <title>Introduction to ZFS on Linux</title>
+      <link>https://stuartabramshumphries.com/post/first/</link>
+      <pubDate>Wed, 30 Aug 2023 20:42:02 +0100</pubDate>
+      
+      <guid>https://stuartabramshumphries.com/post/first/</guid>
+      
+        <description>January 13, 2022 Overview Developed in 2001 by Sun Microsystems - not GNU licensed so has to be installed on linux separately.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head>
+  <title>
+    
+      
+        AWS cli quickstart |
+      Stuart Abrams-Humphries
+
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.110.0"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Stuart Abrams-Humphries" />
+  <meta
+    name="description"
+    content="Call me Stuart"
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.min.1147aa5bacb4bce677a0e264073829caedb82fd18ea07a5f1d80521f539d1c45.css"
+      integrity="sha256-EUeqW6y0vOZ3oOJkBzgpyu24L9GOoHpfHYBSH1OdHEU="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.73ccfdf28df555e11009c13c20ced067af3cb021504cba43644c705930428b00.css"
+    integrity="sha256-c8z98o31VeEQCcE8IM7QZ688sCFQTLpDZExwWTBCiwA="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.7d272de35b410fb165377550cdf9c4d3a80fbbcc961e111914e4d5c0eaf5729f.css"
+    integrity="sha256-fSct41tBD7FlN3VQzfnE06gPu8yWHhEZFOTVwOr1cp8="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.55d8333481b07a08e07cf6f37319753a2b47e99f4c395394c5747b48b495aa9b.css"
+    integrity="sha256-VdgzNIGwegjgfPbzcxl1OitH6Z9MOVOUxXR7SLSVqps="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.a7448d02590b43449364b6b5922ed9af5410abb4de4238412a830316dedb850b.css"
+    integrity="sha256-p0SNAlkLQ0STZLa1ki7Zr1QQq7TeQjhBKoMDFt7bhQs="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.9ed75a5d670c953fe4df935937674b4646f92674367e9e66eb995bb04e821647.css"
+    integrity="sha256-ntdaXWcMlT/k35NZN2dLRkb5JnQ2fp5m65lbsE6CFkc="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://stuartabramshumphries.com/post/awscli/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
+      integrity="sha256-1tMp2ThEsWLovtHpFWGWJcqRaHlSF3VSubPiEQFKKVc="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://stuartabramshumphries.com/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="AWS cli quickstart"/>
+<meta name="twitter:description" content="AWS CLI Quickstart what is aws cli?
+essentially a command line python tool you can use to query/create/change state of all things in aws."/>
+
+
+
+  
+  <meta property="og:title" content="AWS cli quickstart" />
+<meta property="og:description" content="AWS CLI Quickstart what is aws cli?
+essentially a command line python tool you can use to query/create/change state of all things in aws." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://stuartabramshumphries.com/post/awscli/" /><meta property="og:image" content="https://stuartabramshumphries.com/images/site-feature-image.png"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-10-02T19:59:02+01:00" />
+<meta property="article:modified_time" content="2023-10-02T19:59:02+01:00" /><meta property="og:site_name" content="My blog" />
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "AWS cli quickstart",
+        "headline": "AWS cli quickstart",
+        "alternativeHeadline": "",
+        "description": "
+      
+        AWS CLI Quickstart what is aws cli?\nessentially a command line python tool you can use to query\/create\/change state of all things in aws.
+
+
+      
+
+
+    ",
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/stuartabramshumphries.com\/post\/awscli\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Stuart Abrams-Humphries"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Stuart Abrams-Humphries"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Stuart Abrams-Humphries"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Stuart Abrams-Humphries"
+        },
+        "copyrightYear" : "2023",
+        "dateCreated": "2023-10-02T19:59:02.00Z",
+        "datePublished": "2023-10-02T19:59:02.00Z",
+        "dateModified": "2023-10-02T19:59:02.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Stuart Abrams-Humphries",
+            "url": "https://stuartabramshumphries.com",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/stuartabramshumphries.com\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "https://stuartabramshumphries.com/images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "https:\/\/stuartabramshumphries.com\/post\/awscli\/",
+        "wordCount" : "350",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/profile.jpg"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/">My blog</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p>Call me Stuart</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.linkedin.com/in/saaah/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Linkedin"
+            title="Linkedin"
+          >
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://github.com/stuartabramshumphries"
+            target="_blank"
+            rel="noopener me"
+            aria-label="GitHub"
+            title="GitHub"
+          >
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="mailto:stuartabramshumphries@gmail.com"
+            target="_blank"
+            rel="noopener me"
+            aria-label="e-mail"
+            title="e-mail"
+          >
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Stuart Abrams-Humphries
+        2023
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/post"
+              
+              title=""
+              >Posts</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/about"
+              
+              title=""
+              >About</a
+            >
+          </li>
+        
+
+      
+        
+        
+
+          <li class="nav__list-item">
+            <div class="optionswitch">
+              <input class="optionswitch__picker" type="checkbox" id="3" hidden />
+
+              
+              
+                
+
+              
+
+
+              <label class="optionswitch__label" for="3"
+                >accomplishments <i class="fa fa-angle-down" aria-hidden="true"></i
+              ></label>
+
+              <div class="optionswitch__triangle"></div>
+              <ul class="optionswitch__list">
+                
+                  <li class="optionswitch__list-item">
+                    
+                    <a
+                      href="/certifications/"
+                      
+                      title=""
+                      >Certifications</a
+                    >
+                  </li>
+                
+              </ul>
+            </div>
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      <h1>AWS Cli Quickstart</h1>
+      
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                
+                  2/10/2023
+                
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">2-minute read</span>
+          </li>
+        </ul>
+      <h3 id="aws-cli-quickstart">AWS CLI Quickstart</h3>
+<p>what is aws cli?<br>
+essentially a command line python tool you can use to query/create/change state of all things in aws.<br>
+pretty cool for performing ad-hoc commands.<br>
+installing:<br>
+% pip3 install awscli<br>
+.
+.
+check installed ok.
+% aws &ndash;version<br>
+aws-cli/1.17.8 Python/3.8.1 Darwin/19.3.0 botocore/1.14.8<br>
+%<br>
+% aws help or aws command help<br>
+% complete -C aws_completer aws   &lt;== add this to your .bashrc<br>
+^-^ stuart@stuartah ~ $ aws s3 (tab-tab here shows possible options below)<br>
+cp ls mb mv presign rb rm sync website configure<br>
+% aws configure<br>
+AWS Access Key ID [None]: **************<br>
+AWS Secret Access Key [None]: *******************<br>
+Default region name [None]: eu-west2<br>
+Default output format [None]: json<br>
+%<br>
+you can also add credentials as env variables - e.g. export AWS_[ACCESS/SECRET]_KEY=&hellip;</p>
+<p>here we&rsquo;re adding the credentials to allow connectivity.<br>
+instead of running aws configure you can also edit ~/.aws/config and credentials:</p>
+<p>% ls -l<br>
+total 9<br>
+-rw&mdash;&mdash;- 1 stuart stuart 42 Apr  2 17:03 config<br>
+-rw&mdash;&mdash;- 1 stuart stuart 89 Apr  2 17:03 credentials<br>
+% cat config<br>
+[default]<br>
+region = eu-west2<br>
+output = json<br>
+% cat credentials<br>
+[default]<br>
+aws_access_key_id = **************<br>
+aws_secret_access_key = *******************<br>
+%
+% aws configure list<br>
+Name                    Value             Type    Location<br>
+&mdash;-                    &mdash;&ndash;             &mdash;-    &mdash;&mdash;&ndash;<br>
+profile                             None    None<br>
+access_key     ****************Y47I shared-credentials-file<br>
+secret_key     ****************ti17 shared-credentials-file<br>
+region                eu-west-2      config-file    ~/.aws/config</p>
+<p>instead of just having default section can have multiple sections (profiles) and use them with<br>
+aws &ndash;profile otherone &hellip;</p>
+<p>Examples</p>
+<p>list s3 buckets:<br>
+% aws s3 ls<br>
+2020-03-23 15:45:43 bucket1<br>
+2020-03-29 20:10:27 bucket2<br>
+%<br>
+% aws s3 ls s3://bucket1<br>
+2020-04-01 11:23:28         69 index.html</p>
+<p>% aws s3 cp file s3://bucket1/<br>
+% aws s3 rm s3://bucket1/index.html</p>
+<p>% aws s3 sync folder1 s3://bucket1 &ndash;exclude *rubbish<br>
+%</p>
+<p>% aws ec2 describe-instances &ndash;filters Name=instance-state-name,Values=stopped  &ndash;region  eu-west-2  &ndash;output json  |  jq  -r  .Reservations[].Instances[] .StateReason.Message% aws ec2 start-instances &ndash;instance-ids &hellip;</p>
+<p>% aws iam get-user (lists current users details)<br>
+% aws iam list-users (list all users)<br>
+% aws iam create-user &ndash;user-name emusk (create a user)<br>
+% aws iam delete-user &ndash;user-name bgates (delete bill)<br>
+% aws ec2 describe-key-pairs (lists key pairs)<br>
+% aws ec2 describe-security-groups (list all sec grps)<br>
+% aws ec2 describe-tags<br>
+%</p>
+</div>
+    <div class="post__footer">
+      
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Stuart Abrams-Humphries
+        2023
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></body>
+</html>
